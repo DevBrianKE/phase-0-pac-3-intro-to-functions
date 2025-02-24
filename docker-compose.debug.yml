@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  phase0pac3introtofunctions:
+    image: phase0pac3introtofunctions
+    build:
+      context: .
+      dockerfile: ./Dockerfile
